@@ -64,6 +64,7 @@ function NavS({ active = "home", onDonate }) {
     { id: "foster", label: "Foster", href: "Foster.html" },
     { id: "donate", label: "Donate", href: "Donate.html" },
     { id: "news", label: "News", href: "News.html" },
+    { id: "merch", label: "Merch", href: "Merch.html" },
     { id: "contact", label: "Contact", href: "Contact.html" },
   ];
   const handleDonate = onDonate || (() => { window.location.href = "Donate.html"; });
@@ -75,9 +76,9 @@ function NavS({ active = "home", onDonate }) {
       borderBottom: scrolled ? "1px solid var(--line-dark)" : "1px solid transparent",
       transition: "background .3s ease, border-color .3s ease",
     }}>
-      <div className="wrap" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 76, gap: 16 }}>
+      <div className="wrap" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 116, gap: 16 }}>
         <a href="index.html" aria-label="Run 2 The Rescue" style={{ display: "flex", alignItems: "center", gap: 12, flexShrink: 0 }}>
-          <img src="assets/r2r-logo.png" alt="" style={{ width: 48, height: 48 }} />
+          <img src="assets/r2r-logo.png" alt="" style={{ width: 96, height: 96 }} />
           <div style={{ fontFamily: "var(--font-display)", fontWeight: 600, fontSize: 15, lineHeight: 1.05, color: "#fff", whiteSpace: "nowrap" }}>
             Run 2 The<br />Rescue
           </div>

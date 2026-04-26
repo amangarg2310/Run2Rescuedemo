@@ -65,7 +65,7 @@ function Nav({ onDonate }) {
   }, [menuOpen]);
   const mobileLinks = [
     ["Adopt", "Adopt.html"], ["Sponsor", "Sponsor.html"], ["Foster", "Foster.html"],
-    ["Donate", "Donate.html"], ["News", "News.html"], ["Contact", "Contact.html"],
+    ["Donate", "Donate.html"], ["News", "News.html"], ["Merch", "Merch.html"], ["Contact", "Contact.html"],
   ];
   const handleDonate = onDonate || (() => { window.location.href = "Donate.html"; });
   return (
@@ -76,16 +76,16 @@ function Nav({ onDonate }) {
       borderBottom: scrolled ? "1px solid var(--line-dark)" : "1px solid transparent",
       transition: "background .3s ease, border-color .3s ease",
     }}>
-      <div className="wrap" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 80, gap: 16 }}>
+      <div className="wrap" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 120, gap: 16 }}>
         <a href="index.html" aria-label="Run 2 The Rescue" style={{ display: "flex", alignItems: "center", gap: 12, flexShrink: 0 }}>
-          <img src="assets/r2r-logo.png" alt="" style={{ width: 52, height: 52 }} />
+          <img src="assets/r2r-logo.png" alt="" style={{ width: 104, height: 104 }} />
           <div style={{ fontFamily: "var(--font-display)", fontWeight: 600, fontSize: 15, lineHeight: 1.05, color: "#fff" }}>
             Run 2 The<br />Rescue
           </div>
         </a>
         <div className="nav-desktop" style={{ display: "flex", alignItems: "center", gap: 32 }}>
           <div className="nav-links" style={{ display: "flex", gap: 28, fontSize: 14 }}>
-            {[["Adopt", "Adopt.html"], ["Sponsor", "Sponsor.html"], ["Foster", "Foster.html"], ["News", "News.html"], ["Contact", "Contact.html"]].map(([l, h]) => (
+            {[["Adopt", "Adopt.html"], ["Sponsor", "Sponsor.html"], ["Foster", "Foster.html"], ["News", "News.html"], ["Merch", "Merch.html"], ["Contact", "Contact.html"]].map(([l, h]) => (
               <a key={l} href={h} style={{ color: "var(--on-dark-2)", transition: "color .2s" }}
                 onMouseEnter={e => e.currentTarget.style.color = "#fff"}
                 onMouseLeave={e => e.currentTarget.style.color = "var(--on-dark-2)"}>{l}</a>
