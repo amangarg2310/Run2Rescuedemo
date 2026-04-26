@@ -189,7 +189,7 @@ function HeroCentered({ onDonate }) {
           maxWidth: "14ch",
           color: "#fff",
         }}>
-          Give Hope.<br />Change a Life.<br />Heal with <em>Love.</em>
+          Give <em>Life.</em>
         </h1>
         <p style={{
           maxWidth: 540, margin: "0 auto 28px", fontSize: 17, lineHeight: 1.5,
