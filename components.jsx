@@ -189,7 +189,7 @@ function HeroCentered({ onDonate }) {
           maxWidth: "14ch",
           color: "#fff",
         }}>
-          Give Hope.<br />Change a Life.<br />Heal with <em>Love.</em>
+          Give Life.<br />Change a Life.<br />Heal with <em>Love.</em>
         </h1>
         <p style={{
           maxWidth: 540, margin: "0 auto 28px", fontSize: 17, lineHeight: 1.5,
@@ -240,7 +240,7 @@ function HeroSplit({ onDonate }) {
             margin: "0 0 28px",
             color: "#fff",
           }}>
-            Give Hope.<br />Change a Life.<br />Heal with <em>Love.</em>
+            Give Life.<br />Change a Life.<br />Heal with <em>Love.</em>
           </h1>
           <p style={{ maxWidth: 500, fontSize: 18, color: "var(--on-dark-2)", marginBottom: 32 }}>
             Rescuing dogs from the meat trade in East Asia and giving them a second chance at life.
@@ -290,7 +290,7 @@ function HeroEditorial({ onDonate }) {
           fontSize: "clamp(64px, 12vw, 180px)",
           margin: "0 0 48px", color: "#fff", lineHeight: 0.94,
         }}>
-          Give Hope.<br />Change a <em>Life.</em>
+          Give Life.<br />Change a <em>Life.</em>
         </h1>
         <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)", gap: 64, alignItems: "end" }}>
           <p style={{ fontSize: 20, color: "var(--on-dark-2)", maxWidth: 480 }}>
